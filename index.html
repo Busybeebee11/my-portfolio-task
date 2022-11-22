@@ -16,25 +16,23 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
     <div class="container">
-        <header>
+        <nav>
             <div class="logo">
                 <a href="index.html"><span class="logo-b">BLESSING</span></a>
             </div>
             <ul class="nav-links">
-                <!-- <li><a href="index.html" class="active">Home</a></li> -->
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#skills">Services</a></li>
-                <li><a href="projects.html" target="_blank" rel="noopener noreferrer">Projects</a></li>
-                <li><a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </header>
+        </nav>
 
         <main>
-            <section id="home" class="home-sect">
+            <section class="hero-sect">
                 <div class="intro">
                     <h1>Hello all, I'm Blessing Olusiyan</h1>
-                    <p>I'm a frontend development enthusiast and lover of everything code.</p>
+                    <p>A frontend development enthusiast and lover of everything code.</p>
                     <div class="socials">
                         <a href="https://twitter.com/OluwaBusyBee" class="socials-a">TW</a>
                         <a href="https://www.linkedin.com/in/blessing-olusiyan-157300103" class="socials-a">LI</a>
@@ -43,13 +41,13 @@
                     </div>
                 </div>
                 <div class="intro-img">
-                    <img src="./img/blessing.jpg" alt="blessing">
+                    <img src="./img/toonbee2.png" alt="toon-bee">
                 </div>
             </section>
 
             <section id="about-me" class="aboutme">
                 <div class="aboutme-img">
-                    <img src="./img/womangreen.png" alt="about-me">
+                    <img src="./img/corporatebee.png" alt="corp-bee">
                 </div>
 
                 <div class="aboutme-info">
@@ -64,7 +62,46 @@
             </section>
 
             <section id="skills" class="my-skills">
-                <div class="skills-services-hobbies-cont"> 
+                <div class="skills-cont">
+                    <div class="card card1">
+                        <div class="img-cont">
+                            <div class="img-card">
+                                <img src="/img/coding.webp" alt="skills" style="width: 29px">
+                            </div>
+                        </div>
+                        <h4 class="head-text">Skills</h4>
+                        <p>I like to code responsive designs when bringing ideas to life in the browser.</p>
+                        <h5 class="card-head">Languages:</h5>
+                        <div class="codeskills">
+                            <ul>
+                                <li><img src="./img/html.svg" alt="html" style="width: 46px"></li>
+                                <li><img src="./img/css.svg" alt="css" style="width: 52px"></li>
+                                <li><img src="./img/js.svg" alt="js" style="width: 46px"></li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="img-cont">
+                            <div class="img-card">
+                                <img src="/img/skills.webp" alt="skills" style="width: 34px">
+                            </div>
+                        </div>
+                        <h4 class="head-text">Dev Tools</h4>
+                        <div class="devtools">
+                            <ul>
+                                <li><img src="./img/bootstrap.jpeg" alt="bootstrap" style="width: 52px"></li>
+                                <li><img src="./img/tailwindcss.svg" alt="tailwind" style="width: 52px"></li>
+                                <li><img src="./img/git.svg" alt="git" style="width: 46px"></li>
+                                <li><img src="./img/github.png" alt="github" style="width: 52px"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section id="skills" class="my-skills">
+                <div class="skills-cont">
                     <div class="card card1">
                         <div class="img-cont"> 
                             <div class="img-card">
@@ -126,6 +163,41 @@
                                 <li>Listening to good music</li>
                                 <li>Cooking</li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <section id="projects" class="my-projects">
+                <p>Here are a few past projects I've worked on personally and with awesome teammates</p>
+                <div class="gallery">
+                    <div class="gallery-sub">
+                        <div class="gallery-card">
+                            <img class="card-img" src="/img/tourit-blog.png" alt="tourit-blog" style="animation-duration: 0.1s">
+                            <a href="https://cooltonie.github.io/tourit-team-3/">tour-it</a>
+                        </div>
+                        <div class="gallery-card">
+                            <img class="card-img" src="/img/twitter-recreate.png" alt="twitter-recreate"
+                                style="animation-duration: 0.25s">
+                            <a href=" https://busybeebee11.github.io/Twitter-Recreate/">twitter recreate</a>
+                        </div>
+                        <div class="gallery-card">
+                            <img class="card-img" src="/img/chunkr.png" alt="chunkr" style="animation-duration: 0.5s">
+                            <a href="https://busybeebee11.github.io/chunkr/">chunkr</a>
+                        </div>
+                    </div>
+            
+                    <div class="gallery-sub">
+                        <div class="gallery-card">
+                            <img class="card-img" src="/img/beebox.png" alt="beebox" style="animation-duration: 0.75s">
+                            <a href="https://my-music-site.oluwabusybee.repl.co">music site</a>
+                        </div>
+                        <div class="gallery-card">
+                            <img class="card-img" src="/img/registrationpage.png" alt="registration-page">
+                            <a href="https://busybeebee11.github.io/registration-page/">simple register page</a>
+                        </div>
+                        <div class="gallery-card">
+                            <img class="card-img" src="/img/portfolio.png" alt="bee-logo" style="animation-duration: 1s">
+                            <a href="https://my-portfolio-task.oluwabusybee.repl.co">my portfolio</a>
                         </div>
                     </div>
                 </div>
